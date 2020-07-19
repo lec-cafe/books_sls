@@ -1,6 +1,6 @@
 # nuxtjs-tips
 
-> 
+https://nuxt-tips.netlify.app/
 
 ## Development
 
