@@ -5,8 +5,8 @@ module.exports = {
             collapsable: false,
             path: "/lessons/",
             children: [
-                "website",
-                "todolist",
+                "website/",
+                "todolist/",
             ]
         },
         "/nuxtjs/"
