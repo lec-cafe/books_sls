@@ -1,5 +1,5 @@
 module.exports = {
-    "/nuxtjs/": [
+    "/vuejs/": [
         "/lessons/",
         {
             title: 'Nuxt.js Tips',

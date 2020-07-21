@@ -3,7 +3,7 @@ home: true
 heroImage: /images/leccafe.png
 tagline: Nuxt.js を利用した Web サイト / Web アプリ開発のための教材を作成しています。 
 actionText: Quick Start →
-actionLink: /lessons/website/
+actionLink: /lessons/
 features:
 - title: Nuxt.js を利用した Webサイト制作
   details: Feature 1 Description

@@ -21,7 +21,19 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
-
+  markdown: {
+    anchor: {
+      level: [1, 2, 3],
+      slugify: (s) => encodeURIComponent(String(s).trim().toLowerCase().replace(/\s+/g, '-')),
+      permalink: true,
+      permalinkBefore: true,
+      permalinkSymbol: '#'
+    },
+    config: md => {
+      md.use(require('markdown-it-playground'))
+    },
+    linkify: true
+  },
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *

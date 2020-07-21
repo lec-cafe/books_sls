@@ -7,9 +7,12 @@ module.exports = {
             path: "/nuxtjs/",
             children: [
                 'layout',
+                'routes',
                 'scss',
                 'ssr',
-                'lint',
+                'dev-server',
+                'eslint',
+                'stylelint',
             ]
         },
         "/vuejs/",

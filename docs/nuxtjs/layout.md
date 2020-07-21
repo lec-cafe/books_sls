@@ -1,4 +1,9 @@
-# レイアウトとルート
+# レイアウトとビュー
+
+Nuxt.js では Vue.js の機能をディレクトリ構造に合わせて
+階層的に活用する事が可能です。
+
+https://ja.nuxtjs.org/guide/views
 
 ## レイアウト
 
@@ -36,45 +41,3 @@ export default {
 </style>
 ```
 
-## パラメータ付きのルート
-
-pagesフォルダ内に配置したVueコンポーネントは、URL付きのページとして動作する、
-ということを紹介してきました。
-
-固定のURLでページを表示する場合、こうした挙動はもんだいありませんが、
-複数のパターンのURLでマッチする画面を作成しようとした場合、こうした挙動がや不便なケースもあります。
-
-例えば `/items/{商品ID}` のようなURLや `/service/{サービス種別}` のような 
-いろいろな値に対応できるURLを作成する場合、変化する部分のファイル名を `_` で記述してページを作成することができます。 
-
-例えば、`/service/{サービス種別}` のURLページを作成する場合、
-`pages/service/_type.vue` または、`pages/service/_type/index.vue` を作成します。
-
-```vue
-<template>
-  <div >
-    <h1>{{type}} の紹介</h1>
-     ...
-  </div>
-</template>
-
-<script>
-export default {
-  computed:{
-    type(){
-      return this.$route.params.type          
-    }
-  }
-}
-</script>
-
-<style>
-
-</style>
-```
-
-こうして作成したページは `servie/ec` `service/consultant` などの様々な形式でアクセスすることができます。
-
-実際にURLで指定された `{サービス種別}` の部分に該当する文字列は、
-`this.$route.params.type` の形式で取得することが可能で、
-URLの情報をキーにしながら、プログラム等を用いて追加の情報を取得してくるなどして多様なページを展開することが可能になります。
