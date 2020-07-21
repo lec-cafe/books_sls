@@ -2,14 +2,13 @@ module.exports = {
     "/vuejs/": [
         "/lessons/",
         {
-            title: 'Nuxt.js Tips',
+            title: 'Vue.js Tips',
             collapsable: false,
-            path: "/nuxtjs/",
+            path: "/vuejs/",
             children: [
-                'layout',
-                'scss',
-                'ssr',
-                'lint',
+                'directive',
+                'component',
+                'devtool',
             ]
         },
         "/nuxtjs/",
