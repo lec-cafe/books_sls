@@ -1,17 +1,17 @@
 module.exports = {
-    "/vuejs/": [
+    "/tips/vuejs/": [
         "/lessons/",
         {
             title: 'Vue.js Tips',
             collapsable: false,
-            path: "/vuejs/",
+            path: "/tips/vuejs/",
             children: [
                 'directive',
                 'component',
                 'devtool',
             ]
         },
-        "/nuxtjs/",
-        "/firebase/",
+        "/tips/nuxtjs/",
+        "/tips/firebase/",
     ],
 }

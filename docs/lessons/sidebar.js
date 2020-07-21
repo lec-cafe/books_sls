@@ -9,6 +9,7 @@ module.exports = {
                 "todolist/",
             ]
         },
-        "/nuxtjs/"
+        "/tips/nuxtjs/",
+        "/tips/vuejs/"
     ],
 }

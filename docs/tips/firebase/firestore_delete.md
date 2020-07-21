@@ -1,3 +1,3 @@
-# データの削除
+# Firestore からの削除
 
 https://firebase.google.com/docs/firestore/manage-data/delete-data?hl=ja

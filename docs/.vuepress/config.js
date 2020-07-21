@@ -65,12 +65,12 @@ module.exports = {
           ]
         },
         "/lessons/",
-        "/nuxtjs/"
-
+        "/nuxtjs/",
       ],
       ...require('../lessons/sidebar'),
-      ...require('../nuxtjs/sidebar'),
-      ...require('../vuejs/sidebar'),
+      ...require('../tips/nuxtjs/sidebar'),
+      ...require('../tips/vuejs/sidebar'),
+      ...require('../tips/firebase/sidebar'),
     }
   },
 

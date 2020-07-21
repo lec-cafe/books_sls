@@ -1,10 +1,10 @@
 module.exports = {
-    "/nuxtjs/": [
+    "/tips/nuxtjs/": [
         "/lessons/",
         {
             title: 'Nuxt.js Tips',
             collapsable: false,
-            path: "/nuxtjs/",
+            path: "/tips/nuxtjs/",
             children: [
                 'layout',
                 'routes',
@@ -15,7 +15,7 @@ module.exports = {
                 'stylelint',
             ]
         },
-        "/vuejs/",
-        "/firebase/"
+        "/tips/vuejs/",
+        "/tips/firebase/"
     ],
 }
