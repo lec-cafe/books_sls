@@ -10,6 +10,7 @@ module.exports = {
             ]
         },
         "/tips/nuxtjs/",
-        "/tips/vuejs/"
+        "/tips/vuejs/",
+        "/tips/firebase/",
     ],
 }

@@ -5,10 +5,10 @@ module.exports = {
             collapsable: false,
             path: "/tips/firebase/",
             children: [
-                "firestore_delete",
-                "firestore_read",
                 "firestore_write",
-                "googlelogin",
+                "firestore_read",
+                "firestore_delete",
+                // "googlelogin",
             ]
         },
         "/tips/nuxtjs/",

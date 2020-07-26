@@ -1,8 +1,17 @@
-## Firestore への書き込み
+# Firestore への書き込み
 
-Firestoreからのデータ読み出しに関する詳細は以下のドキュメントから確認できます。
+Firestore はコレクションと呼ばれる単位でデータを管理する、
+Firebase のデータベースツールです。
 
-https://firebase.google.com/docs/firestore/manage-data/add-data?hl=ja
+コレクションの名前を コレクション ID とよび、
+コレクション内の一つづつのデータをドキュメントと呼びます。
+
+コレクション内の複数のドキュメントの中からドキュメントを区別するために割り当てられたIDを
+ドキュメントIDと呼びます。
+
+Firestoreの利用方法を確認するために、
+まずは、基本的なデータ追加のフローを確認しておきましょう。
+
 
 ## ドキュメントIDを利用した追加
 
@@ -39,7 +48,7 @@ db.collection('cities').doc('BJ').update_({
 });
 ```
 
-## ドキュメントID を利用しない更新
+## ドキュメントID を利用しない追加
 
 doc にドキュメントIDを利用しない場合、
 Firestore 側で適当なドキュメントIDが発行されます。
@@ -70,6 +79,13 @@ msgRef.set({
     message: "hello world"
 })
 ```
+
+## 公式ガイド
+
+ドキュメントの追加に関する公式ドキュメントは以下から参照できます。
+
+https://firebase.google.com/docs/firestore/manage-data/add-data?hl=ja
+
 
 
 
