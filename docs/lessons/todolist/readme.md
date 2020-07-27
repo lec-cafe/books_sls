@@ -10,6 +10,10 @@ Nuxt.js と Firebase を利用して TODO アプリ を構築するためのフ�
 
 Nuxt.js と Firebase を利用して TODO アプリ を構築するためのフローを紹介します。
 
+サンプルコードは以下を参照ください。
+
+https://github.com/lec-cafe/books-nuxtjs/tree/master/examples/tasklist
+
 ### 環境構築 Nuxt.js のセットアップ
 
 - アプリ開発の準備
@@ -24,3 +28,4 @@ Nuxt.js と Firebase を利用して TODO アプリ を構築するためのフ�
 - vuex の実装
 - リアルタイム更新の利用
  
+ <Disqus/>

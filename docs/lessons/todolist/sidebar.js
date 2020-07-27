@@ -22,7 +22,7 @@ module.exports = {
             ]
         },
         "/lessons/",
-        "/nuxtjs/"
+        "/tips/nuxtjs/"
 
     ],
 }
