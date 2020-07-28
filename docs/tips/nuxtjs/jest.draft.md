@@ -30,3 +30,11 @@ module.exports = {
   testMatch: ["<rootDir>/**/*.spec.ts", "<rootDir>/**/*.spec.js"]
 }
 ```
+
+js を使うために
+
+```bash
+npm i @babel/plugin-proposal-object-rest-spread @babel/plugin-transform-runtime babel-preset-env -D
+```
+
+bashrc を置く

@@ -20,3 +20,5 @@ TypeScript を利用する事で、JavaScript のクラスの機能を強力に�
 
 メソドも、型とアクセス修飾子を定義できます。
 
+
+https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5
