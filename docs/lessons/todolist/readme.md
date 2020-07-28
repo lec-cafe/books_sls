@@ -23,7 +23,6 @@ https://github.com/lec-cafe/books-nuxtjs/tree/master/examples/tasklist
 
 ## Extra 
 
-- コンポーネントの分割
 - バリデーションの実装
 - vuex の実装
 - リアルタイム更新の利用

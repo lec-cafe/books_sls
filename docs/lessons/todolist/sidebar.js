@@ -15,14 +15,14 @@ module.exports = {
             title: 'Extra',
             collapsable: false,
             children: [
-                '2-1.component',
                 '2-2.validation',
                 '2-3.vuex',
                 '2-4.realtime',
             ]
         },
         "/lessons/",
-        "/tips/nuxtjs/"
+        "/tips/nuxtjs/",
+        "/tips/firebase/"
 
     ],
 }
