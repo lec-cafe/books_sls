@@ -65,7 +65,7 @@ module.exports = {
           ]
         },
         "/lessons/",
-        "/nuxtjs/",
+        "/tips/nuxtjs/",
       ],
       ...require('../lessons/sidebar'),
       ...require('../tips/nuxtjs/sidebar'),
