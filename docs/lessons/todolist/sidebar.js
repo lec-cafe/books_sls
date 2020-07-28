@@ -11,15 +11,15 @@ module.exports = {
                 '1-4.deploy',
             ]
         },
-        {
-            title: 'Extra',
-            collapsable: false,
-            children: [
-                '2-2.validation',
-                '2-3.vuex',
-                '2-4.realtime',
-            ]
-        },
+        // {
+        //     title: 'Extra',
+        //     collapsable: false,
+        //     children: [
+        //         '2-2.validation',
+        //         '2-3.vuex',
+        //         '2-4.realtime',
+        //     ]
+        // },
         "/lessons/",
         "/tips/nuxtjs/",
         "/tips/firebase/"
