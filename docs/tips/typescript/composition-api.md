@@ -214,7 +214,7 @@ export default defineComponent({
       message, // this is not reactive  
       upperCaseMessage
     };
-  }
+  }.
 })
 </script>
 ```

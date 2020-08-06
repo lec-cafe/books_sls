@@ -5,12 +5,8 @@ module.exports = {
             collapsable: false,
             path: "/lessons/",
             children: [
-                "website/",
-                "todolist/",
+                "restapi/",
             ]
         },
-        "/tips/nuxtjs/",
-        "/tips/vuejs/",
-        "/tips/firebase/",
     ],
 }

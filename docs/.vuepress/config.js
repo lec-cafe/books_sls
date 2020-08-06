@@ -5,11 +5,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Nuxt.js Note',
+  title: 'AWS Serverless Note',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: "Nuxt.js を利用した Web サイト / Web アプリ開発のための教材を作成しています。",
+  description: "AWS を利用した Servrless 開発の Tips 集を掲載していきます。",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -49,28 +49,11 @@ module.exports = {
       {text: 'Lec Café', link: 'https://leccafe.connpass.com/'},
     ],
     sidebar: {
-      ...require('../lessons/todolist/sidebar'),
-      "/lessons/website/": [
-        {
-          title: 'Nuxt.js を利用したWebサイト制作',
-          collapsable: false,
-          path: "/lessons/website/",
-          children: [
-            '1.setup',
-            '2.page',
-            '3.subpage',
-            '4.css',
-            '5.image',
-            '6.build',
-          ]
-        },
-        "/lessons/",
-        "/tips/nuxtjs/",
-      ],
+      ...require('../lessons/restapi/sidebar'),
       ...require('../lessons/sidebar'),
-      ...require('../tips/nuxtjs/sidebar'),
-      ...require('../tips/vuejs/sidebar'),
-      ...require('../tips/firebase/sidebar'),
+      // ...require('../tips/nuxtjs/sidebar'),
+      // ...require('../tips/vuejs/sidebar'),
+      // ...require('../tips/firebase/sidebar'),
     }
   },
 
